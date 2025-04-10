@@ -1,6 +1,6 @@
 # Mini HTML & CSS Components
 
-This repository contains a collection of small projects and UI components built to practice HTML and CSS. Each project is organized in the order it was completed and stored in its own folder.
+This repository contains a collection of UI components and designs created to practice and improve skills in HTML and CSS. Each design is stored in its own folder and organized by the order in which it was completed, making it easy to track progress and revisit earlier work.
 
 ## Project List
 
