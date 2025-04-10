@@ -23,7 +23,7 @@ This repository contains a collection of small projects and UI components built 
 17. **[Browser Extension Manager](./17-browser-extension-manager/)**
 18. **[3 Column Preview Card](./18-3-column-preview-card/)**
 19. **[Our Team UI](./19-our-team-ui/)**
-20. **[QR Code Component]()**
+20. **[QR Code Component](https://kdfarrell.github.io/Components/Frontend%20Mentor%20-%20QR%20Code%20Component/)**
 
 
 ## About
