@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:wght@100..900&display=swap');
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: "Figtree", sans-serif;
+    background-color: #0E79CC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Center content */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Blog card */
+.blog-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 375px;
+    border: 2px solid black;
+    box-shadow: 7px 7px 0 0 black;
+}
+
+/* Image */
+.illustration {
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* Tag */
+.tag{
+    background-color: #0e38cc;
+    width: max-content;
+    font-weight: 800;
+    margin: 24px 0 16px;
+    padding: 8px 15px;
+    border-radius: 6px;
+    color: white;
+}
+
+/* Date */
+.date-published {
+    font-weight: 500;
+    color: black;
+}
+
+/* Title */
+.blog-title {
+    font-weight: 800;
+    margin: 16px 0;
+    color: #0e38cc;
+}
+
+/* Description */
+.blog-description {
+    font-weight: 500;
+    color: gray;
+}
+
+/* Author section */
+.blog-author {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+/* Profile picture */
+.pro-picture {
+    border-radius: 50%;
+    width: 35px;
+}
+
+/* Author name */
+.author-name {
+    font-weight: 800;
+    color: #0e38cc;
+    margin-left: 10px;
+}

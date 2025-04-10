@@ -1,0 +1,228 @@
+:root {
+    --clr-primary: #000000;
+    --clr-secondary: #394150;
+   
+    --bg-primary: #FFFEFE;
+    --bg-secondary: #F3F4F6;
+
+    --accent1: #263FA9;
+    --accent2: #86E7D4;
+    --accent3: #9DC4F8;
+    --accent4: #C1B6F8;
+    --accent5: #EDACD2;
+    --accent6: #F8D8B0;
+
+    --fw-normal: 400;
+    --fw-semibold: 600;
+
+    --gradient: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    min-height: 100vh;
+    padding: 20px 10px;
+    background-color: var(--bg-primary);
+    display: grid;
+    place-content: center;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    background-color: var(--bg-secondary);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-areas: 
+        'box1'
+        'box2'
+        'box3'
+        'box4'
+        'box5'
+        'box6'
+        'box7';
+}
+
+.description {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    grid-area: box1;
+    font-size: 1rem; /* Set base font size */
+}
+
+.description h3 {
+    font-size: 1.25rem; /* Fixed size */
+    color: var(--accent1);
+    font-weight: normal;
+}
+
+h1 {
+    color: var(--clr-primary);
+    font-size: 2.5rem; /* Fixed size */
+    font-weight: 500;
+}
+
+.description p {
+    color: var(--clr-secondary);
+    font-size: 1rem; /* Fixed size */
+}
+
+.card {
+    position: relative;
+    height: 100%; 
+}
+
+.card::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    background: var(--gradient);
+}
+
+.card img {
+    position: relative;
+    bottom: 0;
+}
+
+.card .details {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: var(--bg-primary);
+    z-index: 3;
+    line-height: 1.5;
+
+    h3 {
+        font-size: 1.25rem;
+        font-weight: var(--fw-semibold);
+    }
+
+    p {
+        font-size: 1rem;
+        font-weight: var(--fw-normal);
+    }
+}
+
+.card1 {
+    background-color: var(--accent4);
+    grid-area: box2;
+}
+
+.card2 {
+    background-color: var(--accent5);
+    grid-area: box3;
+}
+
+.card3 {
+    background-color: var(--accent3);
+    grid-area: box4;
+}
+
+.card4 {
+    background-color: var(--accent6);
+    grid-area: box5;
+}
+
+.card5 {
+    background-color: var(--accent2);
+    grid-area: box6;
+}
+
+.cta {
+    grid-area: box7;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    width: auto;
+    white-space: nowrap;
+    font-size: 1rem;
+    gap: 5px;
+    color: var(--clr-secondary);
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+
+    main {
+        overflow: hidden;
+        max-width: 768px;
+    }
+    
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+            'box1 box1 box1'
+            'box2 box3 box4'
+            'box7 box5 box6';
+    
+    }
+
+    
+    .description {
+        font-size: 2vw;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr; /* 4 equal columns */
+        grid-template-rows: repeat(2, 1fr); /* Two rows to hold 7 items */
+        grid-template-areas: 
+            'box1 box1 box2 box3'
+            'box7 box4 box6 box5'; /* Correct placement based on your box numbers */
+    }
+
+    main {
+        max-width: 1024px;
+    }
+    
+    .description {
+        font-size: 2vw; /* Scales the font size */
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+}
+
+
