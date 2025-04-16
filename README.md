@@ -23,6 +23,7 @@ This repository contains a collection of UI components and designs created to pr
 17. **[Three Column Preview Card](https://kdfarrell.github.io/Components/Three%20Column%20Preview%20Card%20UI/)**
 18. **[Our Team UI](https://kdfarrell.github.io/Components/Our%20Team%20UI/)**
 19. **[QR Code Component](https://kdfarrell.github.io/Components/QR%20Code%20Card%20UI/)**
+20. **[Profile Card UI](https://kdfarrell.github.io/Components/Profile%20Card%20UI/)**
 
 ## About
 
