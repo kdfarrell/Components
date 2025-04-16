@@ -1,0 +1,134 @@
+:root {
+    --clr-1: hsl(185, 75%, 39%);
+    --clr-2: hsl(229, 23%, 23%);
+    --clr-3: hsl(227, 10%, 46%);
+
+    --clr-neutral: hsl(0, 0%, 59%);
+
+    --fw-normal: 400;
+    --fw-bold: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow: hidden;
+}
+
+body {
+    background-color: var(--clr-1);
+    font-family: "Kumbh Sans", sans-serif;
+    color: var(--clr-2);
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.circle {
+    max-width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.circle1 {
+    top: -150px;
+    left: -190px;
+}
+
+.circle2 {
+    bottom: -150px;
+    right: -200px;
+}
+
+main {
+    width: 100%;
+}
+
+.card {
+    margin: 0 auto;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.pro-pic {
+    background: url(images/bg-pattern-card.svg);
+    position: relative;
+    height: 150px;
+}
+
+.pro-pic img {
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30%;
+    border: 5px solid white;
+}
+
+.details-stats {
+    background-color: white;
+    text-align: center;
+    padding: 4rem 2rem 2rem;
+}
+
+.details h1 {
+    font-size: 18px;
+    font-weight: var(--fw-bold);
+}
+
+.details span {
+    font-weight: var(--fw-normal);
+    color: var(--clr-3);
+    margin-left: 5px;
+}
+
+.details p {
+    font-weight: var(--fw-normal);
+    color: var(--clr-3);
+    margin-top: 10px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.stats span {
+    display: block;
+    font-size: .75rem;
+    font-weight: var(--fw-normal);
+    color: var(--clr-neutral);
+    letter-spacing: 1px;
+}
+
+@media (min-width: 600px) {
+
+    .circle1 {
+        top: -400px;
+        left: -450px;
+    }
+
+    .circle2 {
+        bottom: -400px;
+        right: -400px;
+    }
+
+    .card {
+      transform: scale(1.2); /* scale down to 80% */
+      transform-origin: center; /* optional: control the anchor point */
+    }
+  }
