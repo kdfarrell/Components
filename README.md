@@ -23,20 +23,3 @@ This repository contains a collection of UI components and designs created to pr
 17. **[Our Team UI](https://kdfarrell.github.io/Components/Our%20Team%20UI/)**
 18. **[QR Code Component](https://kdfarrell.github.io/Components/QR%20Code%20Card%20UI/)**
 19. **[Profile Card UI](https://kdfarrell.github.io/Components/Profile%20Card%20UI/)**
-
-## About
-
-The goal of this repository is to practice:
-
-- Writing clean and semantic HTML  
-- Building responsive layouts with CSS  
-- Developing reusable UI components  
-- Strengthening front-end fundamentals  
-
-## Running the Projects
-
-To view a project:
-
-1. Clone the repository  
-2. Navigate into the project folder  
-3. Open the `index.html` file in your browser
