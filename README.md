@@ -19,11 +19,10 @@ This repository contains a collection of UI components and designs created to pr
 13. **[Landing Page Layout](https://kdfarrell.github.io/Components/Landing%20Page%20UI/)**
 14. **[Pricing Table UI](https://kdfarrell.github.io/Components/Pricing%20Table%20UI/)**
 15. **[Four Card Feature Section](https://kdfarrell.github.io/Components/Four%20Card%20Feature%20Section%20UI/)**
-16. **[Calculator](https://kdfarrell.github.io/Components/Calculator/)**
-17. **[Three Column Preview Card](https://kdfarrell.github.io/Components/Three%20Column%20Preview%20Card%20UI/)**
-18. **[Our Team UI](https://kdfarrell.github.io/Components/Our%20Team%20UI/)**
-19. **[QR Code Component](https://kdfarrell.github.io/Components/QR%20Code%20Card%20UI/)**
-20. **[Profile Card UI](https://kdfarrell.github.io/Components/Profile%20Card%20UI/)**
+16. **[Three Column Preview Card](https://kdfarrell.github.io/Components/Three%20Column%20Preview%20Card%20UI/)**
+17. **[Our Team UI](https://kdfarrell.github.io/Components/Our%20Team%20UI/)**
+18. **[QR Code Component](https://kdfarrell.github.io/Components/QR%20Code%20Card%20UI/)**
+19. **[Profile Card UI](https://kdfarrell.github.io/Components/Profile%20Card%20UI/)**
 
 ## About
 
