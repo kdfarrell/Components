@@ -2,7 +2,7 @@
 
 This repository contains a collection of UI components and designs created to practice and improve skills in HTML and CSS. Each design is stored in its own folder and organized by the order in which it was completed, making it easy to track progress and revisit earlier work.
 
-## Project List
+## Component List
 
 1. **[Social Links Profile Card](https://kdfarrell.github.io/Components/Social%20Links%20Profile%20Card%20UI/)**
 2. **[Blog Preview Card Main](https://kdfarrell.github.io/Components/Blog%20Preview%20Card%20UI/)**
